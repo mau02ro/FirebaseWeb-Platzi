@@ -162,7 +162,7 @@
                         </div>
                         <div class="div-btnInicioSesion">
                             <a id="btnRegistroEmail" class="btn waves-effect waves-light">Registrarse<i class="material-icons left">account_box</i></a>
-                        </div>                        
+                        </div>         
                     </div>
                     <div class="col s12 m12 div-btnRegistrarse">
                         <a id="btnIniciarSesion" class="btn waves-effect waves-light">Iniciar Sesión<i class="material-icons right">send</i></a>
@@ -221,6 +221,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script> -->
+
+<!-- Servicios de Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+
 
 <!--build:js js/main.min.js -->
 <script type="text/javascript" src="js/config/ConfigFirebase.js"></script>
@@ -230,8 +237,5 @@
 <script type="text/javascript" src="js/auth/autenticacion.js"></script>
 <script type="text/javascript" src="js/auth/authController.js"></script>
 <script type="text/javascript" src="js/post/postController.js"></script>
-
-
-<!-- endbuild -->
 
 </html>
